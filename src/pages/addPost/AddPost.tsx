@@ -40,9 +40,6 @@ export const AddPost: React.FC<AddPostProps> = () => {
     const action = useDispatch();
     const navigate = useNavigate();
 
-    useEffect(() => {
-    }, [file, post]);
-
     const handleOpen = () => {
         setIsOpen(true);
     }
