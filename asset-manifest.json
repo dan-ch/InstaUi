@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/InstaUi/static/css/main.662658a8.chunk.css",
-    "main.js": "/InstaUi/static/js/main.97b10a24.chunk.js",
-    "main.js.map": "/InstaUi/static/js/main.97b10a24.chunk.js.map",
+    "main.js": "/InstaUi/static/js/main.6de464bf.chunk.js",
+    "main.js.map": "/InstaUi/static/js/main.6de464bf.chunk.js.map",
     "runtime-main.js": "/InstaUi/static/js/runtime-main.87cda945.js",
     "runtime-main.js.map": "/InstaUi/static/js/runtime-main.87cda945.js.map",
     "static/js/2.3add8aae.chunk.js": "/InstaUi/static/js/2.3add8aae.chunk.js",
@@ -16,6 +16,6 @@
     "static/js/runtime-main.87cda945.js",
     "static/js/2.3add8aae.chunk.js",
     "static/css/main.662658a8.chunk.css",
-    "static/js/main.97b10a24.chunk.js"
+    "static/js/main.6de464bf.chunk.js"
   ]
 }
