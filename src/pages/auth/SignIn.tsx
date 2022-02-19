@@ -28,10 +28,12 @@ export const SignIn: React.FC<SignInProps> = () => {
   };
 
   const responseGoogle = (response: any) => {
+    console.log(response);
     action(signInSocial(response.accessToken, "google"));
   }
 
-  const onSuccess = async (response: any) => {
+  const onSuccess = (response: any) => {
+    console.log(response);
     action(signInSocial(response.code, "github"));
   }
 
@@ -46,7 +48,7 @@ export const SignIn: React.FC<SignInProps> = () => {
       <div className="social-auth-container">
         <GoogleLogin
             className="social-auth-container-button"
-            clientId="943857804982-okau4ko9qn2harjiv75if0mt57o99j3e.apps.googleusercontent.com"
+            clientId={String(process.env.REACT_APP_GOOGLE_CLIENT_ID)}
             onSuccess={responseGoogle}
             onFailure={responseGoogle}
             buttonText="Google"
@@ -61,9 +63,8 @@ export const SignIn: React.FC<SignInProps> = () => {
 
             cookiePolicy={'single_host_origin'}
         />
-        <LoginGithub clientId="cef6e2a53464bfd04904"
+        <LoginGithub clientId={process.env.REACT_APP_GITHUB_CLIENT_ID}
                      className="social-auth-container-button social-auth-container-button-github"
-                     scope={'user:email'}
                      onSuccess={onSuccess}
                      buttonText={<i className="fab fa-github social-auth-container-button-icon"/>}
                      onFailure={onFailure}/>
