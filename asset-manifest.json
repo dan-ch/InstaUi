@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/InstaUi/static/css/main.662658a8.chunk.css",
-    "main.js": "/InstaUi/static/js/main.6de464bf.chunk.js",
-    "main.js.map": "/InstaUi/static/js/main.6de464bf.chunk.js.map",
-    "runtime-main.js": "/InstaUi/static/js/runtime-main.87cda945.js",
-    "runtime-main.js.map": "/InstaUi/static/js/runtime-main.87cda945.js.map",
-    "static/js/2.3add8aae.chunk.js": "/InstaUi/static/js/2.3add8aae.chunk.js",
-    "static/js/2.3add8aae.chunk.js.map": "/InstaUi/static/js/2.3add8aae.chunk.js.map",
-    "index.html": "/InstaUi/index.html",
-    "static/css/main.662658a8.chunk.css.map": "/InstaUi/static/css/main.662658a8.chunk.css.map",
-    "static/js/2.3add8aae.chunk.js.LICENSE.txt": "/InstaUi/static/js/2.3add8aae.chunk.js.LICENSE.txt",
-    "static/media/global.scss": "/InstaUi/static/media/blueVinyl.cba1cad2.otf"
+    "main.css": "/InstakilogramUi/static/css/main.a3f7c159.chunk.css",
+    "main.js": "/InstakilogramUi/static/js/main.6de464bf.chunk.js",
+    "main.js.map": "/InstakilogramUi/static/js/main.6de464bf.chunk.js.map",
+    "runtime-main.js": "/InstakilogramUi/static/js/runtime-main.2f588e6f.js",
+    "runtime-main.js.map": "/InstakilogramUi/static/js/runtime-main.2f588e6f.js.map",
+    "static/js/2.3add8aae.chunk.js": "/InstakilogramUi/static/js/2.3add8aae.chunk.js",
+    "static/js/2.3add8aae.chunk.js.map": "/InstakilogramUi/static/js/2.3add8aae.chunk.js.map",
+    "index.html": "/InstakilogramUi/index.html",
+    "static/css/main.a3f7c159.chunk.css.map": "/InstakilogramUi/static/css/main.a3f7c159.chunk.css.map",
+    "static/js/2.3add8aae.chunk.js.LICENSE.txt": "/InstakilogramUi/static/js/2.3add8aae.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/InstakilogramUi/static/media/blueVinyl.cba1cad2.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.87cda945.js",
+    "static/js/runtime-main.2f588e6f.js",
     "static/js/2.3add8aae.chunk.js",
-    "static/css/main.662658a8.chunk.css",
+    "static/css/main.a3f7c159.chunk.css",
     "static/js/main.6de464bf.chunk.js"
   ]
 }
