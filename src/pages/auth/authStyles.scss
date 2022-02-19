@@ -1,0 +1,109 @@
+.auth__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 400px;
+  padding-top: 50px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.auth__header {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 80%;
+  padding-bottom: 25px;
+  max-width: 400px;
+
+  & > p {
+    padding-top: 20px;
+    color: #989898;
+    font-weight: 500;
+  }
+}
+
+.social-auth-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  max-width: 400px;
+  padding-bottom: 20px;
+  min-width: 255px;
+
+  &-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 48%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    box-shadow: 0px 2px 13px -1px rgba(66, 68, 90, 1);
+
+
+    &-github {
+      background-color: #30373a;
+      color: white;
+      font-weight: 500;
+    }
+
+    &-google {
+      background-color: #4285F4;
+      color: white;
+
+
+    }
+
+    &-icon {
+      font-size: 26px;
+    }
+
+
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}
+
+.form {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  max-width: 400px;
+  padding: 20px;
+
+  &-sign-in {
+    min-height: 250px;
+    width: 100%;
+  }
+
+  &-sign-up {
+    min-height: 400px;
+    width: 100%;
+  }
+}
+
+.auth__footer {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  padding-top: 10px;
+  & > p {
+    font-weight: 500;
+    color: #989898;
+    padding-right: 5px;
+  }
+
+  & > a {
+    font-weight: bold;
+    color: #1976d2;
+  }
+
+}

@@ -1,0 +1,21 @@
+@import './styles/postFormStyles';
+
+.add-post{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px 20px 0 20px;
+  min-width: 320px;
+  max-width: 1000px;
+  width: 100%;
+
+  &__image{
+    object-fit: contain;
+    padding-top: 40px;
+    max-height: 50vh;
+  }
+
+  &__loading{
+    padding-top: 100px;
+  }
+}

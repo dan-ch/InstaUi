@@ -1,0 +1,118 @@
+.post-dialog{
+  font-size: 14px;
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  &__author{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    & > p {
+      font-weight: bold;
+      padding-left: 10px;
+    }
+  }
+
+  &__loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+
+  &__content{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-between;
+  }
+
+  &__buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    column-gap: 10px;
+    padding-bottom: 15px;
+
+    & > i {
+      font-size: 20px;
+
+      &:hover{
+        color: grey;
+        cursor: pointer;
+      }
+    }
+
+    & > i:nth-last-child(1){
+      margin-left: auto;
+      align-self: flex-end;
+    }
+  }
+
+  &__icon-filled{
+    color: $light-red;
+
+    &:hover{
+      color: $light-red !important;
+    }
+  }
+
+  &__likes{
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  &__update-time{
+    padding-top: 15px;
+    font-size: 11px;
+    color: grey;
+    margin-bottom: 16px;
+  }
+
+  &__comment-container{
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    padding-top: 6px;
+    border-top: 1px solid #efefef;
+
+  }
+
+  &__input{
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    font-size: 14px;
+  }
+
+  &__share-comment{
+    border: none;
+    background: none;
+    width: 80px;
+    font-size: 14px;
+    font-weight: bold;
+    color: $light-blue;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  &__emoji{
+    border: none;
+    background: none;
+    width: 40px;
+    font-size: 30px;
+
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+}

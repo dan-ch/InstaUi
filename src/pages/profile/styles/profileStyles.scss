@@ -1,0 +1,143 @@
+.profile{
+
+  &-wrapper {
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+  }
+
+  &-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+    padding: 0 15px 0 15px;
+  }
+
+  &-header-right{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+
+    & > p {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 10px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+
+  }
+
+  &-statistics-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+
+  &-statistics {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &-number{
+      font-size: 16px;
+      font-weight: bold;
+    }
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+  &-buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    max-width: 600px;
+  }
+
+  &-posts{
+    padding: 40px 15px 75px 15px;
+    width: 100%;
+    max-width: 975px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 4px;
+
+    &-item {
+      overflow: hidden;
+      position: relative;
+      width: 100%;
+      height: 16rem;
+
+      &-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0, 0.4);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.25s;
+
+        &-container {
+          display: flex;
+          min-width: 150px;
+          width: 30%;
+          justify-content: space-around;
+        }
+
+        &-icon{
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+          font-size: 20px;
+          width: 60px;
+
+
+        }
+
+        & > * {
+          transform: translateY(20px);
+          transition: transform 0.25s;
+        }
+
+        &:hover > *{
+          transform: translateY(0);
+        }
+
+        &:hover {
+          cursor: pointer;
+          opacity: 1;
+        }
+
+      }
+      &-text {
+
+      }
+      &-image{
+        display: block;
+        max-width: 100%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+
+      }
+
+
+    }
+  }
+}

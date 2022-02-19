@@ -1,0 +1,48 @@
+.follow-dialog{
+  min-width: 300px;
+  max-width: 500px;
+
+  height: 400px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  flex-direction: column;
+
+
+  &__users{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    margin-top: 20px;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  &__avatar{
+    margin-right: 15px;
+  }
+
+  &__user{
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    font-weight: bold;
+
+
+    & > a {
+      font-weight: 600;
+      color: $dark-grey;
+      &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  &__loading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

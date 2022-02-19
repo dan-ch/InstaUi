@@ -1,0 +1,30 @@
+.dropzone{
+  min-width: 320px;
+  max-width: 1000px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 400px;
+  font-size: 26px;
+
+  &__info{
+    padding-bottom: 20px;
+  }
+}
+
+
+
+.icon{
+  padding-bottom: 10px;
+  font-size: 72px;
+
+  &--drag-accept{
+    color: $light-blue;
+  }
+
+  &--drag-reject{
+    color: #eb4034;
+  }
+}

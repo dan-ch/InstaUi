@@ -1,0 +1,37 @@
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 15px;
+
+  &__input{
+    max-width: 600px;
+    min-width: 290px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+  }
+
+  &__content{
+    width: 100%;
+    padding: 40px 15px 0 15px;
+  }
+
+  &__lens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+
+  &__loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+}

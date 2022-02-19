@@ -1,0 +1,35 @@
+.edit-profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px;
+
+  &__header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 20px;
+    align-items: center;
+  }
+
+  &__user-info{
+    padding-left: 20px;
+    font-size: 16px;
+  }
+
+  &__username{
+    font-weight: bold;
+  }
+
+  &__clickable-text{
+    color: $light-blue;
+    font-weight: bold;
+
+    &:hover{
+      cursor: pointer;
+    }
+  }
+
+
+}
